@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <title>İletişim</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+        }
+        .card h1 {
+            font-size: 1.5rem;
+            margin: 10px 0;
+            color: #333;
+        }
+        .card p {
+            margin: 5px 0;
+            color: #555;
+        }
+        .card a {
+            text-decoration: none;
+            color: #0073e6;
+            font-size: 1.2rem;
+        }
+        .card a:hover {
+            color: #005bb5;
+        }
+        ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.2em;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid transparent;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul li:nth-child(1) a {
+    color: #FF5733; /* Turuncu */
+    border-color: #FF5733;
+}
+
+ul li:nth-child(2) a {
+    color: #33FF57; /* Yeşil */
+    border-color: #33FF57;
+}
+
+ul li:nth-child(3) a {
+    color:orchid; /* Mavi */
+    border-color: orchid;
+}
+
+ul li a:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+ul li a:hover i {
+    color: #fff;
+}
+
+ul li a i {
+    font-size: 1.2em;
+}
+
+/* Ana sayfa bağlantısı */
+a {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    text-decoration: none;
+    color:yellow;
+    font-size: 1em;
+    border: 2px solid yellow;
+    padding: 10px 15px;
+    width: 200px;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+
+/* Küçük ekranlar için düzenleme */
+@media (max-width: 600px) {
+    ul li a {
+        font-size: 1em;
+    }
+
+    a {
+        width: 150px;
+        font-size: 0.9em;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>İletişim</h2>
+        <ul>
+            <li><a href="mailto:yavuzselman7218@gmail.com"><i class="fas fa-envelope"></i>E-posta</a></li>
+            <li><a href="https://github.com/ysbb7218" target="_blank"><i class="fab fa-github"></i>GitHub</a></li>
+            <li><a href="https://www.instagram.com/ysbb7218/" target="_blank"><i class="fab fa-instagram"></i>Instagram</a></li>
+            <p><a href="index.html">Ana Sayfaya Dön</a></p>
+        </ul>
+    </div>
+</body>
+</html>
